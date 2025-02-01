@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Platform</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            background-color: #333;
+            padding: 15px 80px;
+        }
+
+        .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            background-color: #666;
+            color: white;
+        }
+
+        .contact-info {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .contact-info td {
+            padding: 10px;
+            border-bottom: 1px solid #333;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                gap: 40px;
+            }
+
+            .logo {
+                font-size: 20px;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .hamburger {
+                display: block;
+                cursor: pointer;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">EduLearn</div>
+        
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#students">Students</a></li>
+            <li><a href="#instructors">Instructors</a></li>
+            <li><a href="#admin">Admin</a></li>
+        </ul>
+
+        <div class="contact-info">
+            <td><a href="#">support@edulearn.com</a></td>
+            <td><a href="#">+1 234 567 890</a></td>
+            <td><a href="#">Help Desk</a></td>
+        </div>
+    </nav>
+
+    <!-- JavaScript for mobile menu toggle -->
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!hamburger.includes(e.target)) {
+                navLinks.style.display = 'flex';
+            }
+        });
+    </script>
+</body>
+</html>

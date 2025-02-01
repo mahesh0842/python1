@@ -1,0 +1,9 @@
+f=16.59
+print(int(f))
+x=True
+print(int(x))
+string="123"
+print(int(string))
+string2='ob111'
+y=int(string2,1)
+print(y)
