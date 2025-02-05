@@ -4,4 +4,3 @@ for i in S:
 print(S[2])
 print(type(S))
 print(len(S))
-print
