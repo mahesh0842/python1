@@ -1,0 +1,20 @@
+for i in range(0,10):
+    if i >5:
+        break
+    else:
+        print(i)
+else:
+    print("completed properly")
+    #pass
+for i in range(0,10):
+    pass
+print("completed properly====")
+#continue
+for i in range(0,10):
+    if i%5== 0:
+        continue
+    else:
+        print(i)
+else:
+    print("completed properly continue")
+    #pass
