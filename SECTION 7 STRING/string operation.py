@@ -13,4 +13,4 @@ for x in range(0,len(s3),2):
     print(s3[x])
 print("slicing")
 s4 = 'hello world'
-s4[::1]
+s4[::]
