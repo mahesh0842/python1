@@ -14,3 +14,4 @@ for x in range(0,len(s3),2):
 print("slicing")
 s4 = 'hello world'
 s4[::]
+print("hello git")
