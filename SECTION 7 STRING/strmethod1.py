@@ -21,4 +21,44 @@ print(s3.rstrip())
 print(s4.lstrip())
 print(s4.rstrip())
 print(s4.lstrip('. +'))
-
+#output
+'''6
+-1
+4
+7
+15
+15
+6
+it comes how many times 3
+3
+python              
+              python
+**python**
++++++++python+++++++
+****python
+alpha
+        alpha
+......+Alpha
+......+Alpha
+maheshyadav@Maheshs-MacBook-Air python % /usr/local/bin/python3 "/Users/maheshyadav
+/Documents/python/SECTION 7 STRING/strmethod1.py"
+6
+-1
+4
+7
+15
+15
+6
+it comes how many times 3
+3
+python              
+              python
+**python**
++++++++python+++++++
+****python
+alpha
+        alpha
+......+Alpha
+......+Alpha
+Alpha
+'''
