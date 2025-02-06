@@ -8,3 +8,17 @@ print(s.rfind('o'))#its start from right to left
 print(s.index('how'))
 print("it comes how many times",s.rindex('l'))
 print(s.count('o'))
+s2= "python"
+print(s2.ljust(20))
+print(s2.rjust(20))
+print(s2.center(10,'*'))
+print(s2.center(20,'+'))
+print(s2.rjust(10,'*'))
+s3= "        alpha"
+s4="......+Alpha"
+print(s3.lstrip())
+print(s3.rstrip())
+print(s4.lstrip())
+print(s4.rstrip())
+print(s4.lstrip('. +'))
+
