@@ -1,0 +1,6 @@
+Items =input("Enter the item name")
+price = input('Enter price' )
+total = len(Items)+len(price)
+print(total)
+dots='.'*(25-total)
+print(Items+dots+price)
