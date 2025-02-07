@@ -47,7 +47,7 @@ entries_buffalo = []
 total_labels = []
 
 # Create input rows
-for i in range(10):
+for i in range(12):
     row = i + 1
     
     # Person label
