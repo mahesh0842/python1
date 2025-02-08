@@ -1,0 +1,10 @@
+a='10'
+b='ravi'
+c=89.98
+print(a,b,c)
+print('hello','world')
+print("hello"+"ravi")
+print(a,b,c,sep="-")
+print(a,end='\t')
+print(b,end='\t')
+print(c)
