@@ -8,7 +8,7 @@ for i in range(0, l):
             count += 1
             print(f"Duplicate character '{words[i]}' found at indices {i} and {j}")
             print(f"Duplicate character '{words[i]}' found {count} times")
-        
+print('HELLO')
 
 
 
