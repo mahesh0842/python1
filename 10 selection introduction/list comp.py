@@ -17,3 +17,6 @@ print(l5)
 #or
 l6=[x for x in 'abc%412345de@fgh' if x.isalpha()]
 print(l6)
+ata=input("enter the input")
+l7=ata.split()
+print(l7)
