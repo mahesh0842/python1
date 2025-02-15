@@ -23,3 +23,8 @@ print("UN-PACKING",b)
 print("UN-PACKING",c)
 print("UN-PACKING",d)
 print("UN-PACKING",e)
+t8=10,20,30,40,50
+a,*b,c=t8
+print(a)
+print(b)
+print(c)
