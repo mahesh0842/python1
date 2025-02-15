@@ -1,0 +1,7 @@
+t1=('jack',38.6,45,5+9j,45)
+print(t1)
+print(type(t1))
+t2=(1,2,3,4,5)
+t3=(10,)
+print(type(t3))
+t4=tuple(1,)
