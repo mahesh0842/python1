@@ -15,8 +15,8 @@ if not os.path.exists(SAVE_FOLDER):
 
 # List of permanent names
 NAMES = [
-    "John", "Alice", "Bob", "Charlie", "Diana", "Eva", 
-    "Frank", "Grace", "Henry", "Ivy", "Jack", "Karen"
+    "Krishna", "New-sai", "Om sai", "Shree sai", "Sunil", "sai", 
+    "Anil", "Dinesh", "Subash", "ravi-dairy", "Shyamdhar", "Bhola"
 ]
 
 def get_float(entry):
