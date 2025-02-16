@@ -1,0 +1,16 @@
+s={10,20,30,40,50,66}
+S2={10,20,30,66}
+s.add(60)
+print(s)
+s1=s.copy()
+print(s1)
+s.update(('mk',22,66))
+print("UPDTAE",s)
+s.pop()
+print(s)
+s.discard('mk')
+print(s)
+S2.remove(66)
+print(S2)
+s.clear()
+print("CLEAR",s)
