@@ -1,0 +1,15 @@
+"print(dir(set))"
+s={1,2,3,4,5,6,7,8,9,10}
+a={1,2,3,5,7}
+b={5,7,9,10,11}
+print(a|b)
+print(a&b)
+print(a-b)
+print(a^b)
+print(a<s)
+print(a<=s)
+print(s<=s)
+print(s==s)
+print(b<s)
+print(s<a)
+print(s>a)
