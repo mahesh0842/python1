@@ -14,5 +14,7 @@ additem(15,l)
 print(l)
 #if we not passing list
 print(additem(22)) 
+print(additem(44))
+print(additem(66))
 
 
