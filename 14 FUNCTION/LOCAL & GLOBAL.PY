@@ -6,6 +6,7 @@ def fun1(a,b):
     print(g)
 
 def fun2(d):
+    g=88
     print('fun2',d*g)
 
 fun2(3)
