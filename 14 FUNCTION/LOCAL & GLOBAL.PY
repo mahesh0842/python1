@@ -6,8 +6,9 @@ def fun1(a,b):
     print(g)
 
 def fun2(d):
-    g=88
+    
     print('fun2',d*g)
+    print(globals())
 
 fun2(3)
 fun1(4,5)
