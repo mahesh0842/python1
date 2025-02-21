@@ -5,4 +5,7 @@ def fact(n):
         return n*fact(n-1)
 r=fact(4)
 print(r)
+print(callable(fact))
+
+
 
