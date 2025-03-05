@@ -6,3 +6,5 @@ a=int(input("enter your first nummber"))
 b=int(input("enter your first nummber"))
 c= a+b
 print(c)
+
+                                                                                                     
