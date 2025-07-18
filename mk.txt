@@ -1,0 +1,4 @@
+
+python is simplae as like c and c++ 
+python is object oriented programming
+in python everyting is object that helps to writes programme
