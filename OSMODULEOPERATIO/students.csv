@@ -1,0 +1,11 @@
+﻿StudentID,Name,Age,Gender,Grade,City,Email
+1,Student_1,18,Male,A,Navi Mumbai,student1@example.com
+2,Student_2,19,Female,B,Navi Mumbai,student2@example.com
+3,Student_3,20,Male,C,Navi Mumbai,student3@example.com
+4,Student_4,18,Female,D,Navi Mumbai,student4@example.com
+5,Student_5,19,Male,E,Navi Mumbai,student5@example.com
+6,Student_6,20,Female,A,Navi Mumbai,student6@example.com
+7,Student_7,18,Male,B,Navi Mumbai,student7@example.com
+8,Student_8,19,Female,C,Navi Mumbai,student8@example.com
+9,Student_9,20,Male,D,Navi Mumbai,student9@example.com
+10,Student_10,18,Female,E,Navi Mumbai,student10@example.com

@@ -1,0 +1,18 @@
+import os 
+import time
+path=os.path.exists("C:/Users/maheshyadav/Documents/python/OSMODULEOPERATIO/First.py")
+print(path)
+p1=os.path.isfile("/Users/maheshyadav/Documents/python/Dateandtime/calender.py")
+print(p1)
+p2=os.path.split("/Users/maheshyadav/Documents/python/Dateandtime/calender.py")
+print(p2)
+joined_path=os.path.join("/Users/maheshyadav/Documents/python/Dateandtime","calender.py")
+print(joined_path)
+p3=os.path.dirname("/Users/maheshyadav/Documents/python/Dateandtime/calender.py")
+print(p3)
+p4=os.path.basename("/Users/maheshyadav/Documents/python/Dateandtime/calender.py")
+print(p4)
+p5=os.path.getsize("/Users/maheshyadav/Documents/python/Dateandtime/calender.py")
+print(p5)
+p6=time.ctime(os.path.getmtime("/Users/maheshyadav/Documents/python/Dateandtime/calender.py"))
+print(p6)
